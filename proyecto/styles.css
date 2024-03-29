@@ -2,7 +2,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto";
-    background: linear-gradient(150deg, #0400ff, #00000000, #0022ff, #00000000,#0400ff);
+    
+    background-image: url('./img/z.jpg');
+    
+    background-size: cover;
+    
+    background-attachment: fixed;
+    
+    background-position: center;
 }
 
 .main {
@@ -13,8 +20,7 @@ body {
     align-items: center;
 }
 
-
-.container1{
+.container1 {
     max-width: auto;
     margin: 0 auto;
     border: 2px solid rgb(3, 2, 2);
@@ -22,25 +28,20 @@ body {
     padding: 100px; 
     background-color: #fff7f7;
 }
+
 .footer {
     background-color: #ffffff;
     color: #000000;
     text-align: center; 
-    height: 120px;
-    padding: 20px 44px;
+    height: 100px;
+    padding: 10px 44px;
     display: flex;
     justify-content: space-between;
     align-items: center; 
 
     & .block {
         display: flex;
-        gap: 40px;
-    }
-
-    & .iconos {
-        display: flex;
         gap: 10px;
     }
 }
-
 
